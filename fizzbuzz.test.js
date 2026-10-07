@@ -18,3 +18,6 @@ describe('division by 5', () => {
         assert.equal(fizzbuzz(95), "buzz");
     });
 });
+describe('division by 3 and 5', () => {
+    
+});
