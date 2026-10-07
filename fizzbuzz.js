@@ -1,3 +1,5 @@
-function fizzbuzz(){};
+function fizzbuzz(){
+    return "fizz";
+};
 
 export {fizzbuzz};
