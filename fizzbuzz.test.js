@@ -29,3 +29,8 @@ describe('division by 3 and 5', () => {
         assert.equal(fizzbuzz(90), "fizzbuzz")
     })
 });
+describe('returning the number as a string', () => {
+    test('1 returns "1"', () => {
+        assert.equal(fizzbuzz(1), "1");
+    })
+})
