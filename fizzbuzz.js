@@ -1,2 +1,3 @@
 function fizzbuzz(){};
 
+export {fizzbuzz};
