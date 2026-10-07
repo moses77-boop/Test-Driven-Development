@@ -25,4 +25,7 @@ describe('division by 3 and 5', () => {
     test('30 returns fizzbuzz', ()=> {
         assert.equal(fizzbuzz(30), "fizzbuzz")
     })
+    test('90 returns fizzbuzz', ()=> {
+        assert.equal(fizzbuzz(90), "fizzbuzz")
+    })
 });
