@@ -6,5 +6,9 @@ describe('division by 3', () => {
     test('3 returns fizz', () => {
         assert.equal(fizzbuzz(3), "fizz");
     })
-
 })
+describe('division by 5', () => {
+    test('5 returns buzz', () => {
+        assert.equal(fizzbuzz(5), "buzz");
+    })
+}
