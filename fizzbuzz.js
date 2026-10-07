@@ -4,7 +4,7 @@ function fizzbuzz(number){
     } else if (number % 5 === 0){
         return "buzz";
     }
-    return "fizz";
+    return number.toString();
 };
 
 export {fizzbuzz};
